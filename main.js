@@ -1,9 +1,5 @@
-class Matematica{
+const usuario = {nome: 'Ricardo'};
 
+usuario.nome = 'Cleiton';
 
-    static soma(a, b){
-       return a + b;
-    }
-}
-
-console.log(Matematica.soma(594, 290));
+console.log(usuario);
